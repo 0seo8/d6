@@ -6,10 +6,10 @@
 TARGET_ARTIST = "DAY6"
 
 # 찾고 싶은 특정 곡 (단일 문자열로 최적화)
-TARGET_SONG = "HAPPY"
+TARGET_SONG = "INSIDE OUT"
 
 # 특정 가수의 특정 곡 조합 (튜플로 최적화)
-TARGET_ARTIST_SONG = ("DAY6", "HAPPY")
+TARGET_ARTIST_SONG = ("DAY6", "INSIDE OUT")
 
 # 검색 모드 설정
 # "artists" - 지정된 가수들의 모든 곡

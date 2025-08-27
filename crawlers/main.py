@@ -601,46 +601,46 @@ def save_frontend_data(filtered_data, youtube_stats, timestamp, rank_changes=Non
     except Exception as e:
         print(f"❌ summary.json 저장 실패: {e}")
 
-    # 1. happy.json (메인 페이지용)
-    happy_data = {
-        "title": "HAPPY",
+    # 1. inside_out.json (메인 페이지용)
+    inside_out_data = {
+        "title": "INSIDE OUT",
         "artist": "DAY6",
-        "album": "Fourever", 
+        "album": "Band Aid", 
         "status": "chart_out",
         "lastUpdated": timestamp,
         "platforms": {}
     }
     
-    # 각 플랫폼별로 HAPPY 상태 확인
+    # 각 플랫폼별로 INSIDE OUT 상태 확인
     for service in ["melon_top100", "melon_hot100", "genie", "bugs", "vibe", "flo"]:
-        happy_data["platforms"][service] = {"rank": None, "change": 0, "status": "chart_out"}
+        inside_out_data["platforms"][service] = {"rank": None, "change": 0, "status": "chart_out"}
         
         # 실제로 차트에 있는지 확인
         for song in filtered_data.get(service, []):
-            if (song.get('title') == 'HAPPY' and 'DAY6' in song.get('artist', '')):
+            if (song.get('title') == 'INSIDE OUT' and 'DAY6' in song.get('artist', '')):
                 change_value = 0
                 if rank_changes and service in rank_changes:
                     for change_info in rank_changes[service]:
-                        if (change_info.get('title') == 'HAPPY' and 
+                        if (change_info.get('title') == 'INSIDE OUT' and 
                             'DAY6' in change_info.get('artist', '')):
                             change_value = change_info.get('change', 0)
                             break
                 
-                happy_data["platforms"][service] = {
+                inside_out_data["platforms"][service] = {
                     "rank": song.get('rank'),
                     "change": change_value,
                     "status": "in_chart"
                 }
-                happy_data["status"] = "in_chart"
+                inside_out_data["status"] = "in_chart"
                 break
     
-    # happy.json 저장
+    # inside_out.json 저장
     try:
-        with open("../frontend/public/data/happy.json", "w", encoding="utf-8") as f:
-            json.dump(happy_data, f, ensure_ascii=False, indent=2)
-        print("✅ happy.json 생성 완료")
+        with open("../frontend/public/data/inside_out.json", "w", encoding="utf-8") as f:
+            json.dump(inside_out_data, f, ensure_ascii=False, indent=2)
+        print("✅ inside_out.json 생성 완료")
     except Exception as e:
-        print(f"❌ happy.json 저장 실패: {e}")
+        print(f"❌ inside_out.json 저장 실패: {e}")
     
     # 2. day6_chart.json (차트 페이지용)
     day6_chart_data = {

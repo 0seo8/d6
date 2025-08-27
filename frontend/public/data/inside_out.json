@@ -1,0 +1,39 @@
+{
+  "title": "INSIDE OUT",
+  "artist": "DAY6",
+  "album": "Band Aid",
+  "status": "chart_out",
+  "lastUpdated": "2025-08-27 22:00:00",
+  "platforms": {
+    "melon_top100": {
+      "rank": null,
+      "change": 0,
+      "status": "chart_out"
+    },
+    "melon_hot100": {
+      "rank": null,
+      "change": 0,
+      "status": "chart_out"
+    },
+    "genie": {
+      "rank": null,
+      "change": 0,
+      "status": "chart_out"
+    },
+    "bugs": {
+      "rank": null,
+      "change": 0,
+      "status": "chart_out"
+    },
+    "vibe": {
+      "rank": null,
+      "change": 0,
+      "status": "chart_out"
+    },
+    "flo": {
+      "rank": null,
+      "change": 0,
+      "status": "chart_out"
+    }
+  }
+}

@@ -101,7 +101,7 @@ export default function ComebackPage() {
                     D-{comebackSchedule[1].dDay}
                   </Badge>
                 </div>
-                <h3 className="text-2xl font-bold mb-1">정규 4집 발매</h3>
+                <h3 className="text-2xl font-bold mb-1">INSIDE OUT</h3>
                 <p className="text-white/80 text-sm">
                   {comebackSchedule[1].date}
                 </p>
