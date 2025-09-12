@@ -95,7 +95,7 @@ export default function RootLayout({
         className={`${notoSansKR.variable} ${montserrat.variable} antialiased font-sans`}
       >
         <Providers>
-          <MobileAppLayout>{children}</MobileAppLayout>
+          {children}
         </Providers>
       </body>
     </html>
