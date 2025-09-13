@@ -12,11 +12,13 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@knocklabs/node": "^1.16.0",
+    "@knocklabs/react": "^0.8.3",
     "@radix-ui/react-checkbox": "^1.3.2",
     "@radix-ui/react-progress": "^1.1.7",
     "@radix-ui/react-select": "^2.2.5",
     "@radix-ui/react-slot": "^1.2.3",
-    "@radix-ui/react-tabs": "^1.1.12",
+    "@radix-ui/react-tabs": "^1.1.13",
     "@tanstack/react-query": "^5.84.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -27,7 +29,7 @@
     "react": "19.1.0",
     "react-device-detect": "^2.2.3",
     "react-dom": "19.1.0",
-    "recharts": "^3.1.2",
+    "recharts": "^3.2.0",
     "swiper": "^11.2.10",
     "tailwind-merge": "^3.3.1"
   },

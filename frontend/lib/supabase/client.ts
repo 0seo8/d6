@@ -1,36 +1,31 @@
-// import { createClient } from "@supabase/supabase-js";
+import { createClient } from "@supabase/supabase-js";
 
-// Temporary: Disable Supabase to fix build error
-// const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-// const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 
-// if (!supabaseUrl || !supabaseAnonKey) {
-//   throw new Error("Missing Supabase environment variables");
-// }
+if (!supabaseUrl || !supabaseAnonKey) {
+  throw new Error("Missing Supabase environment variables");
+}
 
-// // 일반 클라이언트 (브라우저용)
-// export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+// 일반 클라이언트 (브라우저용)
+export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
-// // 관리자용 서버 클라이언트 (서버 사이드에서만 사용)
-// // service_role key가 필요한 경우에만 사용
-// export const createAdminClient = () => {
-//   const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
-//   if (!serviceRoleKey) {
-//     throw new Error(
-//       "SUPABASE_SERVICE_ROLE_KEY is required for admin operations"
-//     );
-//   }
-//   return createClient(supabaseUrl, serviceRoleKey, {
-//     auth: {
-//       autoRefreshToken: false,
-//       persistSession: false,
-//     },
-//   });
-// };
-
-// Mock exports to prevent import errors
-export const supabase = null;
-export const createAdminClient = () => null;
+// 관리자용 서버 클라이언트 (서버 사이드에서만 사용)
+// service_role key가 필요한 경우에만 사용
+export const createAdminClient = () => {
+  const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!serviceRoleKey) {
+    throw new Error(
+      "SUPABASE_SERVICE_ROLE_KEY is required for admin operations"
+    );
+  }
+  return createClient(supabaseUrl, serviceRoleKey, {
+    auth: {
+      autoRefreshToken: false,
+      persistSession: false,
+    },
+  });
+};
 
 // DB 타입 정의 (나중에 Supabase CLI로 자동 생성 가능)
 export type Database = {

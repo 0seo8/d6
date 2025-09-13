@@ -1,10 +1,26 @@
 import { ChartData, VoteItem, MVStats, ChartSong } from "./types";
+import { fetchSupabaseChartData } from "./api/supabase-chart";
 
 // Use Next.js rewrites to avoid CORS issues
 const DATA_BASE_URL = "/data";
 
 export async function fetchChartData(): Promise<ChartData> {
   try {
+    // Try Supabase first for more reliable, precisely timed data
+    const supabaseData = await fetchSupabaseChartData();
+    if (supabaseData) {
+      console.log("Using Supabase chart data:", {
+        collectedAt: supabaseData.collectedAtKST,
+        platforms: Object.keys(supabaseData).filter((key) =>
+          Array.isArray((supabaseData as any)[key])
+        ),
+      });
+      return supabaseData;
+    }
+
+    // Fallback to JSON files (GitHub Actions method)
+    console.log("Falling back to JSON file data source");
+    
     const timestamp = Date.now();
     const randomId = Math.random().toString(36).substring(7);
     const response = await fetch(
