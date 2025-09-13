@@ -6,14 +6,17 @@ const DATA_BASE_URL = "/data";
 export async function fetchChartData(): Promise<ChartData> {
   try {
     const timestamp = Date.now();
+    const randomId = Math.random().toString(36).substring(7);
     const response = await fetch(
-      `${DATA_BASE_URL}/latest.json?t=${timestamp}`,
+      `${DATA_BASE_URL}/latest.json?v=${timestamp}&r=${randomId}`,
       {
-        cache: "no-cache",
+        cache: "no-store",
+        next: { revalidate: 0 },
         headers: {
-          "Cache-Control": "no-cache, no-store, must-revalidate",
+          "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
           Pragma: "no-cache",
           Expires: "0",
+          "If-Modified-Since": "Thu, 01 Jan 1970 00:00:00 GMT",
         },
       }
     );

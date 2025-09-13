@@ -1,16 +1,39 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  async rewrites() {
+  // Temporary: Use local files directly instead of rewrite
+  // async rewrites() {
+  //   return [
+  //     {
+  //       source: "/data/:path*",
+  //       destination:
+  //         "https://raw.githubusercontent.com/0seo8/d6/main/frontend/public/data/:path*",
+  //     },
+  //   ];
+  // },
+  async headers() {
     return [
       {
         source: "/data/:path*",
-        destination:
-          "https://raw.githubusercontent.com/0seo8/d6/main/frontend/public/data/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "no-cache, no-store, must-revalidate, max-age=0",
+          },
+          {
+            key: "Pragma",
+            value: "no-cache",
+          },
+          {
+            key: "Expires",
+            value: "0",
+          },
+        ],
       },
     ];
   },
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",

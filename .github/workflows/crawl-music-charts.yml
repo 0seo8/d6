@@ -5,9 +5,7 @@ on:
     # 한국 시간(KST) 기준 매 시간 정각에 실행
     # KST = UTC + 9시간
     - cron: "0 * * * *" # 매시간 정각 (UTC 기준)
-  push:
-    branches: [ main ]  # 임시 추가 - 09:50 수동 실행용
-  workflow_dispatch:
+  workflow_dispatch: # 수동 실행용
 
 jobs:
   crawl-and-deploy:
