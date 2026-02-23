@@ -1,6 +1,6 @@
 {
   "artist": "DAY6",
-  "lastUpdated": "2026-02-24 03:00",
+  "lastUpdated": "2026-02-24 04:00",
   "platforms": {
     "melon_top100": {
       "name": "멜론 TOP100",
@@ -221,17 +221,17 @@
           "artist": "DAY6 (데이식스)",
           "album": "The Book of Us : Gravity",
           "albumArt": "https://cdn.music-flo.com/image/album/931/230/03/04/403230931_5d2be198.jpg?1563156889809/dims/resize/1000x1000/quality/90",
-          "change": -2,
-          "changeText": "↓2"
+          "change": 0,
+          "changeText": "-"
         },
         {
-          "rank": 88,
+          "rank": 90,
           "title": "Welcome to the Show",
           "artist": "DAY6 (데이식스)",
           "album": "Fourever",
           "albumArt": "https://cdn.music-flo.com/image/v2/album/343/942/22/04/422942343_65f79af1_s.jpg?1710725874947/dims/resize/1000x1000/quality/90",
-          "change": -3,
-          "changeText": "↓3"
+          "change": -2,
+          "changeText": "↓2"
         }
       ],
       "count": 3
