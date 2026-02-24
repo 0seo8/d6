@@ -1,5 +1,5 @@
 {
-  "collectedAtKST": "2026-02-25 04:00",
+  "collectedAtKST": "2026-02-25 05:00",
   "artist": "DAY6",
   "tracks": [
     {
@@ -23,7 +23,7 @@
       "artist": "DAY6 (데이식스)",
       "album": "The Book of Us : Gravity",
       "albumArt": "https://cdnimg.melon.co.kr/cm/album/images/103/07/346/10307346_500.jpg/melon/resize/120/quality/80/optimize",
-      "change": -1
+      "change": 0
     },
     {
       "rank": 48,
@@ -169,7 +169,7 @@
       "artist": "DAY6 (데이식스)",
       "album": "The Book of Us : Gravity",
       "albumArt": "https://cdnimg.melon.co.kr/cm/album/images/103/07/346/10307346_500.jpg/melon/resize/120/quality/80/optimize",
-      "change": -1
+      "change": 0
     },
     {
       "rank": 48,
@@ -348,12 +348,12 @@
       "change": 0
     },
     {
-      "rank": 92,
+      "rank": 93,
       "title": "Welcome to the Show",
       "artist": "DAY6 (데이식스)",
       "album": "Fourever",
       "albumArt": "https://cdn.music-flo.com/image/v2/album/343/942/22/04/422942343_65f79af1_s.jpg?1710725874947/dims/resize/1000x1000/quality/90",
-      "change": -2
+      "change": -1
     }
   ]
 }
