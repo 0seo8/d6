@@ -1,5 +1,5 @@
 {
-  "collectedAtKST": "2026-02-27 02:00",
+  "collectedAtKST": "2026-02-27 03:00",
   "artist": "DAY6",
   "tracks": [
     {
@@ -15,7 +15,7 @@
       "artist": "DAY6 (데이식스)",
       "album": "Fourever",
       "albumArt": "https://cdnimg.melon.co.kr/cm2/album/images/114/44/397/11444397_20240318115810_500.jpg/melon/resize/120/quality/80/optimize",
-      "change": -1
+      "change": 0
     },
     {
       "rank": 47,
@@ -152,7 +152,7 @@
       "artist": "DAY6 (데이식스)",
       "album": "Fourever",
       "albumArt": "https://cdnimg.melon.co.kr/cm2/album/images/114/44/397/11444397_20240318115810_500.jpg/melon/resize/120/quality/80/optimize",
-      "change": -1
+      "change": 0
     },
     {
       "rank": 47,
@@ -312,7 +312,7 @@
       "artist": "DAY6 (데이식스)",
       "album": "Fourever",
       "albumArt": "https://cdn.music-flo.com/image/v2/album/343/942/22/04/422942343_65f79af1_s.jpg?1710725874947/dims/resize/1000x1000/quality/90",
-      "change": -3
+      "change": 0
     },
     {
       "rank": 65,
