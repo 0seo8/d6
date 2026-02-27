@@ -1,6 +1,6 @@
 {
   "artist": "DAY6",
-  "lastUpdated": "2026-02-28 06:00",
+  "lastUpdated": "2026-02-28 07:00",
   "platforms": {
     "melon_top100": {
       "name": "멜론 TOP100",
@@ -33,13 +33,13 @@
           "changeText": "-"
         },
         {
-          "rank": 57,
+          "rank": 58,
           "title": "Welcome to the Show",
           "artist": "DAY6 (데이식스)",
           "album": "Fourever",
           "albumArt": "https://cdnimg.melon.co.kr/cm2/album/images/114/44/397/11444397_20240318115810_500.jpg/melon/resize/120/quality/80/optimize",
-          "change": 0,
-          "changeText": "-"
+          "change": -1,
+          "changeText": "↓1"
         }
       ],
       "count": 4
@@ -53,22 +53,22 @@
       "name": "지니",
       "songs": [
         {
-          "rank": 52,
+          "rank": 47,
           "title": "HAPPY",
           "artist": "DAY6 (데이식스)",
           "album": "Fourever",
           "albumArt": "https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/084/877/280/84877280_1710728168568_1_140x140.JPG/dims/resize/Q_80,0",
-          "change": 0,
-          "changeText": "-"
+          "change": 5,
+          "changeText": "↑5"
         },
         {
-          "rank": 66,
+          "rank": 50,
           "title": "한 페이지가 될 수 있게",
           "artist": "DAY6 (데이식스)",
           "album": "The Book of Us : Gravity",
           "albumArt": "https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/244/101/81244101_1563174738943_1_140x140.JPG/dims/resize/Q_80,0",
-          "change": 0,
-          "changeText": "-"
+          "change": 16,
+          "changeText": "↑16"
         },
         {
           "rank": 76,
@@ -80,13 +80,13 @@
           "changeText": "-"
         },
         {
-          "rank": 77,
+          "rank": 79,
           "title": "Welcome to the Show",
           "artist": "DAY6 (데이식스)",
           "album": "Fourever",
           "albumArt": "https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/084/877/280/84877280_1710728168568_1_140x140.JPG/dims/resize/Q_80,0",
-          "change": 0,
-          "changeText": "-"
+          "change": -2,
+          "changeText": "↓2"
         }
       ],
       "count": 4
@@ -95,40 +95,40 @@
       "name": "벅스",
       "songs": [
         {
-          "rank": 30,
+          "rank": 25,
           "title": "한 페이지가 될 수 있게",
           "artist": "DAY6 (데이식스)",
           "album": "",
           "albumArt": "https://image.bugsm.co.kr/album/images/50/202657/20265759.jpg?version=20211119004415",
-          "change": 0,
-          "changeText": "-"
+          "change": 5,
+          "changeText": "↑5"
         },
         {
-          "rank": 39,
+          "rank": 30,
           "title": "HAPPY",
           "artist": "DAY6 (데이식스)",
           "album": "",
           "albumArt": "https://image.bugsm.co.kr/album/images/50/206298/20629850.jpg?version=20250104012829",
-          "change": 0,
-          "changeText": "-"
+          "change": 9,
+          "changeText": "↑9"
         },
         {
-          "rank": 56,
+          "rank": 58,
           "title": "Welcome to the Show",
           "artist": "DAY6 (데이식스)",
           "album": "",
           "albumArt": "https://image.bugsm.co.kr/album/images/50/206298/20629850.jpg?version=20250104012829",
-          "change": 0,
-          "changeText": "-"
+          "change": -2,
+          "changeText": "↓2"
         },
         {
-          "rank": 70,
+          "rank": 62,
           "title": "예뻤어",
           "artist": "DAY6 (데이식스)",
           "album": "",
           "albumArt": "https://image.bugsm.co.kr/album/images/50/200804/20080494.jpg?version=20240805121438",
-          "change": 0,
-          "changeText": "-"
+          "change": 8,
+          "changeText": "↑8"
         },
         {
           "rank": 72,
@@ -149,13 +149,13 @@
           "changeText": "-"
         },
         {
-          "rank": 99,
+          "rank": 97,
           "title": "Maybe Tomorrow",
           "artist": "DAY6 (데이식스)",
           "album": "",
           "albumArt": "https://image.bugsm.co.kr/album/images/50/207241/20724195.jpg?version=20250508024718",
-          "change": 0,
-          "changeText": "-"
+          "change": 2,
+          "changeText": "↑2"
         }
       ],
       "count": 7
@@ -164,13 +164,13 @@
       "name": "바이브",
       "songs": [
         {
-          "rank": 36,
+          "rank": 38,
           "title": "한 페이지가 될 수 있게",
           "artist": "DAY6(데이식스)",
           "album": "The Book of Us : Gravity",
           "albumArt": "https://musicmeta-phinf.pstatic.net/album/003/117/3117381.jpg?type=r480Fll&v=20230331153414",
-          "change": 0,
-          "changeText": "-"
+          "change": -2,
+          "changeText": "↓2"
         },
         {
           "rank": 46,
@@ -191,13 +191,13 @@
           "changeText": "-"
         },
         {
-          "rank": 81,
+          "rank": 82,
           "title": "예뻤어",
           "artist": "DAY6(데이식스)",
           "album": "Every DAY6 February",
           "albumArt": "https://musicmeta-phinf.pstatic.net/album/001/779/1779662.jpg?type=r480Fll&v=20240129085632",
-          "change": 0,
-          "changeText": "-"
+          "change": -1,
+          "changeText": "↓1"
         }
       ],
       "count": 4
@@ -206,13 +206,13 @@
       "name": "플로",
       "songs": [
         {
-          "rank": 63,
+          "rank": 61,
           "title": "HAPPY",
           "artist": "DAY6 (데이식스)",
           "album": "Fourever",
           "albumArt": "https://cdn.music-flo.com/image/v2/album/343/942/22/04/422942343_65f79af1_s.jpg?1710725874947/dims/resize/1000x1000/quality/90",
-          "change": -1,
-          "changeText": "↓1"
+          "change": 2,
+          "changeText": "↑2"
         },
         {
           "rank": 64,
@@ -224,13 +224,13 @@
           "changeText": "-"
         },
         {
-          "rank": 88,
+          "rank": 90,
           "title": "Welcome to the Show",
           "artist": "DAY6 (데이식스)",
           "album": "Fourever",
           "albumArt": "https://cdn.music-flo.com/image/v2/album/343/942/22/04/422942343_65f79af1_s.jpg?1710725874947/dims/resize/1000x1000/quality/90",
-          "change": -1,
-          "changeText": "↓1"
+          "change": -2,
+          "changeText": "↓2"
         }
       ],
       "count": 3
