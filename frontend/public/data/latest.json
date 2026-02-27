@@ -1,5 +1,5 @@
 {
-  "collectedAtKST": "2026-02-28 03:00",
+  "collectedAtKST": "2026-02-28 04:00",
   "artist": "DAY6",
   "tracks": [
     {
@@ -315,12 +315,12 @@
       "change": 0
     },
     {
-      "rank": 65,
+      "rank": 64,
       "title": "한 페이지가 될 수 있게",
       "artist": "DAY6 (데이식스)",
       "album": "The Book of Us : Gravity",
       "albumArt": "https://cdn.music-flo.com/image/album/931/230/03/04/403230931_5d2be198.jpg?1563156889809/dims/resize/1000x1000/quality/90",
-      "change": 0
+      "change": 1
     },
     {
       "rank": 85,
