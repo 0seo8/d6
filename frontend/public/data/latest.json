@@ -1,5 +1,5 @@
 {
-  "collectedAtKST": "2026-03-01 02:00",
+  "collectedAtKST": "2026-03-01 03:00",
   "artist": "DAY6",
   "tracks": [
     {
@@ -315,23 +315,23 @@
   ],
   "flo": [
     {
-      "rank": 62,
+      "rank": 63,
       "title": "HAPPY",
       "artist": "DAY6 (데이식스)",
       "album": "Fourever",
       "albumArt": "https://cdn.music-flo.com/image/v2/album/343/942/22/04/422942343_65f79af1_s.jpg?1710725874947/dims/resize/1000x1000/quality/90",
-      "change": -6
+      "change": -1
     },
     {
-      "rank": 63,
+      "rank": 64,
       "title": "한 페이지가 될 수 있게",
       "artist": "DAY6 (데이식스)",
       "album": "The Book of Us : Gravity",
       "albumArt": "https://cdn.music-flo.com/image/album/931/230/03/04/403230931_5d2be198.jpg?1563156889809/dims/resize/1000x1000/quality/90",
-      "change": -6
+      "change": -1
     },
     {
-      "rank": 83,
+      "rank": 84,
       "title": "Welcome to the Show",
       "artist": "DAY6 (데이식스)",
       "album": "Fourever",
