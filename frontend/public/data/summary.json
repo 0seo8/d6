@@ -3,10 +3,10 @@
   "dailyGrowth": 0,
   "chartPositions": {
     "melon": 42,
-    "genie": 40,
+    "genie": 43,
     "bugs": 26,
     "vibe": 38,
-    "flo": 55
+    "flo": 56
   },
   "youtubeStats": {
     "views": 125313,
@@ -14,5 +14,5 @@
     "dailyViews": 0,
     "dailyLikes": 0
   },
-  "lastUpdated": "2026-02-28 22:00"
+  "lastUpdated": "2026-02-28 23:00"
 }
