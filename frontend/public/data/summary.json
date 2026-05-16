@@ -2,9 +2,9 @@
   "totalStreams": 125805,
   "dailyGrowth": 0,
   "chartPositions": {
-    "melon": 41,
-    "genie": 45,
-    "bugs": 24,
+    "melon": 35,
+    "genie": 59,
+    "bugs": 33,
     "vibe": 33,
     "flo": 47
   },
@@ -14,5 +14,5 @@
     "dailyViews": 0,
     "dailyLikes": 0
   },
-  "lastUpdated": "2026-05-17 00:00"
+  "lastUpdated": "2026-05-17 01:00"
 }
