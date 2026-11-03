@@ -1,64 +1,4 @@
 {
-  "2026-10-27 03:00": {
-    "b_Eh-9Jz_L8": {
-      "title": "INSIDE OUT",
-      "views": 126359,
-      "likes": 10047,
-      "viewsDelta1h": 1,
-      "likesDelta1h": 0,
-      "video_id": "b_Eh-9Jz_L8",
-      "link": "https://youtu.be/b_Eh-9Jz_L8",
-      "last_updated": "2026-10-27T03:16:10.905376+09:00"
-    }
-  },
-  "2026-10-27 07:00": {
-    "b_Eh-9Jz_L8": {
-      "title": "INSIDE OUT",
-      "views": 126359,
-      "likes": 10047,
-      "viewsDelta1h": 0,
-      "likesDelta1h": 0,
-      "video_id": "b_Eh-9Jz_L8",
-      "link": "https://youtu.be/b_Eh-9Jz_L8",
-      "last_updated": "2026-10-27T07:57:19.236846+09:00"
-    }
-  },
-  "2026-10-27 10:00": {
-    "b_Eh-9Jz_L8": {
-      "title": "INSIDE OUT",
-      "views": 126359,
-      "likes": 10047,
-      "viewsDelta1h": 0,
-      "likesDelta1h": 0,
-      "video_id": "b_Eh-9Jz_L8",
-      "link": "https://youtu.be/b_Eh-9Jz_L8",
-      "last_updated": "2026-10-27T10:48:16.851531+09:00"
-    }
-  },
-  "2026-10-27 16:00": {
-    "b_Eh-9Jz_L8": {
-      "title": "INSIDE OUT",
-      "views": 126359,
-      "likes": 10047,
-      "viewsDelta1h": 0,
-      "likesDelta1h": 0,
-      "video_id": "b_Eh-9Jz_L8",
-      "link": "https://youtu.be/b_Eh-9Jz_L8",
-      "last_updated": "2026-10-27T16:06:45.568358+09:00"
-    }
-  },
-  "2026-10-27 22:00": {
-    "b_Eh-9Jz_L8": {
-      "title": "INSIDE OUT",
-      "views": 126359,
-      "likes": 10047,
-      "viewsDelta1h": 0,
-      "likesDelta1h": 0,
-      "video_id": "b_Eh-9Jz_L8",
-      "link": "https://youtu.be/b_Eh-9Jz_L8",
-      "last_updated": "2026-10-27T22:49:14.305121+09:00"
-    }
-  },
   "2026-10-28 04:00": {
     "b_Eh-9Jz_L8": {
       "title": "INSIDE OUT",
@@ -417,6 +357,18 @@
       "video_id": "b_Eh-9Jz_L8",
       "link": "https://youtu.be/b_Eh-9Jz_L8",
       "last_updated": "2026-11-03T20:30:19.334397+09:00"
+    }
+  },
+  "2026-11-04 03:00": {
+    "b_Eh-9Jz_L8": {
+      "title": "INSIDE OUT",
+      "views": 126369,
+      "likes": 10046,
+      "viewsDelta1h": 1,
+      "likesDelta1h": 0,
+      "video_id": "b_Eh-9Jz_L8",
+      "link": "https://youtu.be/b_Eh-9Jz_L8",
+      "last_updated": "2026-11-04T03:54:01.838345+09:00"
     }
   }
 }
