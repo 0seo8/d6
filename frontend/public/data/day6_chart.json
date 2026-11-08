@@ -1,6 +1,6 @@
 {
   "artist": "DAY6",
-  "lastUpdated": "2026-11-09 01:00",
+  "lastUpdated": "2026-11-09 05:00",
   "platforms": {
     "melon_top100": {
       "name": "멜론 TOP100",
@@ -11,8 +11,8 @@
           "artist": "DAY6 (데이식스)",
           "album": "The Book of Us : Gravity",
           "albumArt": "https://cdnimg.melon.co.kr/cm/album/images/103/07/346/10307346_500.jpg/melon/resize/120/quality/80/optimize",
-          "change": 4,
-          "changeText": "↑4"
+          "change": 0,
+          "changeText": "-"
         },
         {
           "rank": 76,
@@ -20,8 +20,8 @@
           "artist": "DAY6 (데이식스)",
           "album": "Every DAY6 February",
           "albumArt": "https://cdnimg.melon.co.kr/cm/album/images/100/36/099/10036099_500.jpg/melon/resize/120/quality/80/optimize",
-          "change": 3,
-          "changeText": "↑3"
+          "change": 0,
+          "changeText": "-"
         },
         {
           "rank": 77,
@@ -29,8 +29,8 @@
           "artist": "DAY6 (데이식스)",
           "album": "Fourever",
           "albumArt": "https://cdnimg.melon.co.kr/cm2/album/images/114/44/397/11444397_20240318115810_500.jpg/melon/resize/120/quality/80/optimize",
-          "change": -1,
-          "changeText": "↓1"
+          "change": 0,
+          "changeText": "-"
         },
         {
           "rank": 81,
@@ -38,8 +38,8 @@
           "artist": "DAY6 (데이식스)",
           "album": "Fourever",
           "albumArt": "https://cdnimg.melon.co.kr/cm2/album/images/114/44/397/11444397_20240318115810_500.jpg/melon/resize/120/quality/80/optimize",
-          "change": 11,
-          "changeText": "↑11"
+          "change": 0,
+          "changeText": "-"
         }
       ],
       "count": 4
@@ -63,8 +63,8 @@
           "artist": "DAY6 (데이식스)",
           "album": "",
           "albumArt": "https://image.bugsm.co.kr/album/images/50/202657/20265759.jpg?version=20261029114822",
-          "change": -10,
-          "changeText": "↓10"
+          "change": 0,
+          "changeText": "-"
         },
         {
           "rank": 65,
@@ -72,8 +72,8 @@
           "artist": "DAY6 (데이식스)",
           "album": "",
           "albumArt": "https://image.bugsm.co.kr/album/images/50/200804/20080494.jpg?version=20261029084613",
-          "change": 21,
-          "changeText": "↑21"
+          "change": 0,
+          "changeText": "-"
         },
         {
           "rank": 88,
@@ -81,8 +81,8 @@
           "artist": "DAY6 (데이식스)",
           "album": "",
           "albumArt": "https://image.bugsm.co.kr/album/images/50/206298/20629850.jpg?version=20261029125445",
-          "change": -3,
-          "changeText": "↓3"
+          "change": 0,
+          "changeText": "-"
         },
         {
           "rank": 97,
@@ -90,8 +90,8 @@
           "artist": "DAY6 (데이식스)",
           "album": "",
           "albumArt": "https://image.bugsm.co.kr/album/images/50/206298/20629850.jpg?version=20261029125445",
-          "change": -15,
-          "changeText": "↓15"
+          "change": 0,
+          "changeText": "-"
         },
         {
           "rank": 99,
@@ -100,7 +100,7 @@
           "album": "",
           "albumArt": "https://image.bugsm.co.kr/album/images/50/5297/529710.jpg?version=20261029061943",
           "change": 0,
-          "changeText": "NEW"
+          "changeText": "-"
         }
       ],
       "count": 5
@@ -142,7 +142,7 @@
       "name": "플로",
       "songs": [
         {
-          "rank": 96,
+          "rank": 97,
           "title": "한 페이지가 될 수 있게",
           "artist": "DAY6 (데이식스)",
           "album": "The Book of Us : Gravity",
