@@ -1,52 +1,4 @@
 {
-  "2026-11-06 01:00": {
-    "b_Eh-9Jz_L8": {
-      "title": "INSIDE OUT",
-      "views": 126373,
-      "likes": 10045,
-      "viewsDelta1h": 1,
-      "likesDelta1h": 0,
-      "video_id": "b_Eh-9Jz_L8",
-      "link": "https://youtu.be/b_Eh-9Jz_L8",
-      "last_updated": "2026-11-06T01:59:01.098215+09:00"
-    }
-  },
-  "2026-11-06 07:00": {
-    "b_Eh-9Jz_L8": {
-      "title": "INSIDE OUT",
-      "views": 126374,
-      "likes": 10045,
-      "viewsDelta1h": 1,
-      "likesDelta1h": 0,
-      "video_id": "b_Eh-9Jz_L8",
-      "link": "https://youtu.be/b_Eh-9Jz_L8",
-      "last_updated": "2026-11-06T07:34:24.828901+09:00"
-    }
-  },
-  "2026-11-06 11:00": {
-    "b_Eh-9Jz_L8": {
-      "title": "INSIDE OUT",
-      "views": 126375,
-      "likes": 10045,
-      "viewsDelta1h": 1,
-      "likesDelta1h": 0,
-      "video_id": "b_Eh-9Jz_L8",
-      "link": "https://youtu.be/b_Eh-9Jz_L8",
-      "last_updated": "2026-11-06T11:59:35.805276+09:00"
-    }
-  },
-  "2026-11-06 19:00": {
-    "b_Eh-9Jz_L8": {
-      "title": "INSIDE OUT",
-      "views": 126375,
-      "likes": 10045,
-      "viewsDelta1h": 0,
-      "likesDelta1h": 0,
-      "video_id": "b_Eh-9Jz_L8",
-      "link": "https://youtu.be/b_Eh-9Jz_L8",
-      "last_updated": "2026-11-06T19:33:17.349376+09:00"
-    }
-  },
   "2026-11-07 02:00": {
     "b_Eh-9Jz_L8": {
       "title": "INSIDE OUT",
@@ -369,6 +321,18 @@
       "video_id": "b_Eh-9Jz_L8",
       "link": "https://youtu.be/b_Eh-9Jz_L8",
       "last_updated": "2026-11-13T21:44:23.107610+09:00"
+    }
+  },
+  "2026-11-14 05:00": {
+    "b_Eh-9Jz_L8": {
+      "title": "INSIDE OUT",
+      "views": 126397,
+      "likes": 10044,
+      "viewsDelta1h": 1,
+      "likesDelta1h": 0,
+      "video_id": "b_Eh-9Jz_L8",
+      "link": "https://youtu.be/b_Eh-9Jz_L8",
+      "last_updated": "2026-11-14T05:11:22.758118+09:00"
     }
   }
 }
