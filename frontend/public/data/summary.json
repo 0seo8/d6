@@ -1,18 +1,18 @@
 {
-  "totalStreams": 126429,
+  "totalStreams": 126432,
   "dailyGrowth": 0,
   "chartPositions": {
-    "melon": 64,
-    "genie": 61,
-    "bugs": 35,
+    "melon": 75,
+    "genie": 78,
+    "bugs": 42,
     "vibe": 64,
     "flo": 98
   },
   "youtubeStats": {
-    "views": 126429,
+    "views": 126432,
     "likes": 10039,
     "dailyViews": 0,
     "dailyLikes": 0
   },
-  "lastUpdated": "2026-11-27 13:00"
+  "lastUpdated": "2026-11-27 23:00"
 }
